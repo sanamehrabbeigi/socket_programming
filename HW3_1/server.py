@@ -3,7 +3,7 @@ import threading
 
 #for IPv6 : AF_INET6  / localhost = ::1
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.bind(("127 .0.0.1", 12345))
+s.bind(("127.0.0.1", 12345))
 s.listen(4)
 
 num_of_connect_clients = 0
